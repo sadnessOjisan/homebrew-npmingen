@@ -19,6 +19,7 @@ class Npmingen < Formula
                             "--disable-silent-rules",
                             "--prefix=#{prefix}"
       # system "cmake", ".", *std_cmake_args
+      ls
     end
   
     test do
