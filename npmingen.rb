@@ -12,7 +12,8 @@ class Npmingen < Formula
     # depends_on "cmake" => :build
   
     def install
-      bin.install "npmingen.zip" => 'npmingen'
+      unzip "./npmingen.zip"
+      bin.install "_build/default/npmingen.exe" => 'npmingen'
     end
   
     test do
