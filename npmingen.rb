@@ -5,7 +5,7 @@ class Npmingen < Formula
     desc ""
     homepage ""
     url "https://github.com/sadnessOjisan/npmingen/releases/latest/download/npmingen.zip"
-    version "v0.0.8"
+    version "v0.0.9"
     sha256 "d33a9e0e863cf4dec92ec41eb574ee2c47d88b6d56d4d88d6be33a7caed8eed9"
     license ""
   
