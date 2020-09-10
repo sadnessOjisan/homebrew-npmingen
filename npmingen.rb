@@ -5,7 +5,7 @@ class Npmingen < Formula
     desc ""
     homepage ""
     url "https://github.com/sadnessOjisan/npmingen/releases/latest/download/npmingen.zip"
-    version "v0.0.6"
+    version "v0.0.7"
     sha256 ""
     license ""
   
@@ -18,6 +18,7 @@ class Npmingen < Formula
                             "--disable-dependency-tracking",
                             "--disable-silent-rules",
                             "--prefix=#{prefix}"
+      system "echo hello"                    
       # system "cmake", ".", *std_cmake_args
       system "ls"
     end
