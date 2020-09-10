@@ -4,7 +4,7 @@
 class Npmingen < Formula
     desc ""
     homepage ""
-    url "https://github.com/sadnessOjisan/npmingen/releases/download/latest/cmd.zip"
+    url "https://github.com/sadnessOjisan/npmingen/releases/latest/download/npmingen.zip"
     version ""
     sha256 ""
     license ""
