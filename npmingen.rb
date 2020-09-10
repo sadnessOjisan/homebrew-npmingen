@@ -5,22 +5,14 @@ class Npmingen < Formula
     desc ""
     homepage ""
     url "https://github.com/sadnessOjisan/npmingen/releases/latest/download/npmingen.zip"
-    version "v0.0.15"
+    version "v0.0.16"
     sha256 ""
     license ""
   
     # depends_on "cmake" => :build
   
     def install
-      # ENV.deparallelize  # if your formula fails when building in parallel
-      # Remove unrecognized options if warned by configure
-      system "./configure", "--disable-debug",
-                            "--disable-dependency-tracking",
-                            "--disable-silent-rules",
-                            "--prefix=#{prefix}"
-                            
-      # system "cmake", ".", *std_cmake_args
-      system "make", "install"
+      bin.install Binary => 'npmingen'
     end
   
     test do
