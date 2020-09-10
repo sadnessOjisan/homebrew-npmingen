@@ -5,8 +5,8 @@ class Npmingen < Formula
     desc ""
     homepage ""
     url "https://github.com/sadnessOjisan/npmingen/releases/latest/download/npmingen.zip"
-    version "v0.0.7"
-    sha256 ""
+    version "v0.0.8"
+    sha256 "3d826c1429794d51bdaadad4e3d1820072fccb82"
     license ""
   
     # depends_on "cmake" => :build
