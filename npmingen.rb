@@ -5,14 +5,15 @@ class Npmingen < Formula
     desc ""
     homepage ""
     url "https://github.com/sadnessOjisan/npmingen/releases/latest/download/npmingen.zip"
-    version "v0.0.12"
+    version "v0.0.13"
     sha256 "d33a9e0e863cf4dec92ec41eb574ee2c47d88b6d56d4d88d6be33a7caed8eed9"
     license ""
   
     # depends_on "cmake" => :build
   
     def install
-      system "make", "install"
+      system "unzip", "npmingen.zip"
+      bin.install "npmingen.exe"
     end
   
     test do
